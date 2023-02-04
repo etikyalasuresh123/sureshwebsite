@@ -1,0 +1,163 @@
+.block1{
+    position: relative;
+    bottom:300px;
+    left:60px;
+    color:white;
+
+}
+body{
+    background-color: white;
+}
+
+.block2{
+   text-align: center;
+
+}
+p1{
+    font-size: 40px;
+
+}
+/* hover image*/
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 90%;
+    height: 300px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  .col{
+    font-size: 30px;
+  }
+  
+  .zoom{
+
+   margin-left: 230px;
+    overflow: hidden;
+}
+.zoom img{
+  transition: transform 1s;
+   
+    display: block;  
+}
+.zoom:hover img{
+    transform: scale(1,3);
+}
+.block3{
+    position:relative;
+    bottom:260px;
+    left:300px;
+    color: white;
+    
+}
+.block4{
+    
+    border: 1px solid blue;
+    width:1050px;
+    height: 150px;
+   margin-left: 230px;
+   border-radius: 10px;
+}
+h2,h6{
+    text-align: center;
+}
+.dot {
+    height: 300px;
+    width: 300px;
+    background-color: #bbb;
+   
+    display: inline-block;
+  }
+  .dot{
+      height: auto;
+      width: 20%;
+      overflow: hidden;
+      
+  
+    }
+    .dot img{
+     
+      display: block;
+      transition: transform 2s;
+      display: inline-block;
+    }
+    .dot:hover img{
+      transform: scale(1.3);
+    }
+    /* hover image*/
+    
+    .img{
+        float: left;
+    }
+    .left{
+
+        margin-left: 230px;
+         overflow: hidden;
+        
+     }
+     .left img{
+       transition: transform 1s;
+        
+         display: block;  
+     }
+     .left:hover img{
+         transform: scale(1,3);
+     }
+      /* hover image zoom*/
+
+     .imagezoom{
+
+     
+         overflow: hidden;
+        
+     }
+     .imagezoom img{
+       transition: transform 1s;
+        
+         display: block;  
+     }
+     .imagezoom:hover img{
+         transform: scale(1,3);
+     }
+     .changecolor{
+        background-color:#F08080;
+        
+     }
+     body{
+        background-color: lightblue;
+     }
+     .form{
+      text-align: center;
+     }
+     
